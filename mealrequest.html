@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meal Entry</title>
+  <link rel="stylesheet" href="mealrequest.css">
+</head>
+
+<body >
+
+
+
+  <div class="container">
+    <form action="">
+
+      <p id="form_head">Request for Daily Meal</p>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="dept">Department </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="dept" name="dept" placeholder="Enter your department" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="building">Building </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="building" name="building" placeholder="Enter your building number" required>
+        </div>
+      </div>
+
+
+      <div class="row" >
+        <div class="col-25">
+          <label for="b_yes">Breakfast </label>
+        </div>
+        <div class="col-75">
+
+         
+          <input type="radio" id="b_yes" name="breakfast" value="yes">
+          <label for="b_yes">Yes</label><br>
+          <input type="radio" id="b_no" name="breakfast" value="no">
+          <label for="b_no">No</label><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="l_yes">Lunch </label>
+        </div>
+        <div class="col-75">
+
+         
+          <input type="radio" id="l_yes" name="lunch" value="yes">
+          <label for="l_yes">Yes</label><br>
+          <input type="radio" id="l_no" name="lunch" value="no">
+          <label for="l_no">No</label><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="d_yes">Dinner </label>
+        </div>
+        <div class="col-75">
+
+         
+          <input type="radio" id="d_yes" name="dinner" value="yes">
+          <label for="d_yes">Yes</label><br>
+          <input type="radio" id="b_no" name="dinner" value="no">
+          <label for="d_no">No</label><br>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
