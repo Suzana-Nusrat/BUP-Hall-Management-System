@@ -1,17 +1,17 @@
-@import url(https://fonts.google
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
 *{
     margin:0;
     padding:0;
 } 
 
 body {
- width: fit-content;
- background: #f5e7e7; 
- font-family: "Lato", sans-serif;  
- background-image: url("images/background.jpg");
- background-repeat: no-repeat;
- overflow: hidden;
- background-size: 1800px 900px;
+    width: fit-content;
+    background: #f5e7e7; 
+    font-family: "Lato", sans-serif;  
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 1800px 900px;
   }
   h1{
     width: 100%;
@@ -82,13 +82,16 @@ body {
     margin-top: 10px;
     border-radius:  25px;
 }
+.main button a{
+    text-decoration: none;
+}
 .main button:hover{
-    box-shadow: 2px 2px 2px #55
+    box-shadow: 2px 2px 2px #555;
     background-color: #7799d4;
     cursor: pointer;
 }
 .main input:hover{
-    box-shadow: 2px 2px 2px #55
+    box-shadow: 2px 2px 2px #555;
     background-color: #ddd;
     cursor: pointer;
 }
@@ -109,17 +112,3 @@ body {
     margin-left: 260px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
