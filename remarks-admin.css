@@ -6,6 +6,11 @@
 			width: 100%;
             
 		}
+		
+			.container .row h1{
+			margin-left: 30px;
+		  }
+  
 
 		.white-bg {
 			background-color: #ffffff;
