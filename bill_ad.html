@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bill_ad.css" />
+    <title>Bills & Payment</title>
+  </head>
+  <body>
+    <img src="images/bupim.png">
+<section>
+    <div><label class="bup">Bangladesh University of Professionals</label></div> 
+    <div class="loginstatus">
+        <div style="visibility:hidden;">
+            <div>
+                <label class="semesterstatus">Current</label>
+                <div>
+                    <a id="ctl00_lblLogout" class="logoutStyle" href="javascript:__doPostBack('ctl00$lblLogout','')">Logout</a>
+                    <div class="AvatarStatusPanel">
+                        <img id="ctl00_imgAvatar" src="" style="border-width:1px;border-style:solid;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section class="header"> 
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index1.html">Home</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="mealreq_ad.html">Meal Entry</a></li>
+          <li><a href="bill_ad.html">Bill & Payment</a></li>
+          <li><a href="notice_ad.html">Notice</a></li>
+          <li><a href="remarks_ad.html">Remarks</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <hr class="line">
+
+
+    <div class="info">
+      <hr class="line">
+      <div class="goal-select" style="display: flex;">
+        <div style="display: grid; place-items: center;">
+            <label for="goal">
+                Sort By
+            </label>
+        </div>
+        <div style="margin: 20px;">
+            <select name="goal" id="goal" size="1">
+                <option value="Default">Default</option>
+                <option value="Name">Name</option>
+                <option value="Building">Building</option>
+                <option value="Department">Department</option>
+                <option value="Date">Date</option>
+                <option value="Month">Month</option>
+            </select>
+        </div>
+    </div>
+                
+      <hr class="line"> 
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Si. No.</th>
+          <th scope="col">Student Name</th>
+          <th scope="col">Department</th>
+          <th scope="col">Building</th>
+          <th scope="col">Billing Date</th>
+          <th scope="col">Cost By Date</th>
+          <th scope="col">Cost By Month</th>
+          <th scope="col">Collection Date</th>
+          <th scope="col">Due</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-striped">
+          <th scope="row">1</th>
+          <td>Nusrat Nizam Suzana</td>
+          <td>ICT</td>
+          <td>02</td>
+          <td>1-7 Sep</td>
+          <td>45tk.</td>
+          <td>4000tk.</td>
+          <td>3-Sep</td>
+          <td>None</td>
+        </tr>
+        <tr class="table-striped">
+            <th scope="row">2</th>
+            <td>Jawad Mir</td>
+            <td>ICT</td>
+            <td>02</td>
+            <td>1-7 Sep</td>
+            <td>45tk.</td>
+            <td>4000tk.</td>
+            <td>5-Sep</td>
+            <td>None</td>
+          </tr>
+          <tr class="table-striped">
+            <th scope="row">3</th>
+            <td>Farah Ireen</td>
+            <td>CES</td>
+            <td>02</td>
+            <td>1-7 Sep</td>
+            <td>45tk.</td>
+            <td>4000tk.</td>
+            <td>2-Sep</td>
+            <td>None</td>
+          </tr>
+          <tr class="table-striped">
+            <th scope="row">4</th>
+            <td>Afsana Alo</td>
+            <td>ICT</td>
+            <td>02</td>
+            <td>1-7 Sep</td>
+            <td>45tk.</td>
+            <td>4000tk.</td>
+            <td>2-Sep</td>
+            <td>None</td>
+          </tr>
+          <tr class="table-striped">
+            <th scope="row">4</th>
+            <td>Shahinul Islam Shanto</td>
+            <td>DMR</td>
+            <td>01</td>
+            <td>1-7 Sep</td>
+            <td>45tk.</td>
+            <td>4000tk.</td>
+            <td>6-Sep</td>
+            <td>None</td>
+          </tr>
+          <tr class="table-striped">
+            <th scope="row">6</th>
+            <td>Sadia Hamid</td>
+            <td>ICT</td>
+            <td>01</td>
+            <td>1-7 Sep</td>
+            <td>60tk.</td>
+            <td>4000tk.</td>
+            <td>4-Sep</td>
+            <td>None</td>
+          </tr>
+      </tbody>
+    </table>
+</section>
+  </body>
+</html>
