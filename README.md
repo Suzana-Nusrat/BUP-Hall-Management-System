@@ -1,2 +1,2 @@
 # BUP-Hall-Management-System
-The project is about digitalizing the hall management system.
+The project is about digitalizing the Student Hall Management System.
