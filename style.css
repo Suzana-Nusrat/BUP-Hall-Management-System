@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    background: rgb(244, 241, 
-    font-family: Arial, Helveti
+    background: rgb(244, 241, 244);
+    font-family: Arial, Helvetica, sans-serif;
 }
 img{
   height: 100px;
@@ -32,9 +32,9 @@ img{
   color: #5d5d5d;
   text-decoration: none;
   text-decoration-line: none;
-  text-decoration-thickness: in
-  text-decoration-style: initia
-  text-decoration-color: initia
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
 }
 #ctl00_imgAvatar {
   float: right;
@@ -44,9 +44,9 @@ img{
   border: 1px solid #007F3D;
   border-radius: 100%;
   border-top-left-radius: 100%;
-  border-top-right-radius: 100%
-  border-bottom-right-radius: 1
-  border-bottom-left-radius: 10
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
   margin-top: 1px;
   margin-left: 5px;
 }
@@ -74,7 +74,7 @@ align-items: center;
     position: relative; 
   }
   .nav-links ul li a {
-    background: rgb(245, 245, 
+    background: rgb(245, 245, 245);
     text-decoration: none;
     font-size: 14px;
     line-height: 50px;
