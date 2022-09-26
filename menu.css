@@ -10,16 +10,17 @@
 #menu_row{
   display: flex;
   padding: 0 100px 0 100px;
+  
 }
 #menu_col{
   box-shadow: 2px 2px 2px #bbb;
   border: 1px solid #bbb;
-  background-color: #fff;
+  background-color: #E5E4E2;
   margin: 5px;
   flex: 1;
 }
 #menu_col h2{
-  background-color: red;
+  background-color: #48706b;
   color: #fff;
   text-align: center;
   padding: 5px;
