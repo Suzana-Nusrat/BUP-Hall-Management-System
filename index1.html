@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BUP Hall Management System</title>
+</head>
+<body>
+    <img src="images/bupim.png">
+    <section>
+        <div><label class="bup">Bangladesh University of Professionals</label></div> 
+        <div class="loginstatus">
+            <div style="visibility:hidden;">
+                <div>
+                    <label class="semesterstatus">Current</label>
+                    <div>
+                        <a id="ctl00_lblLogout" class="logoutStyle" href="javascript:__doPostBack('ctl00$lblLogout','')">Logout</a>
+                        <div class="AvatarStatusPanel">
+                            <img id="ctl00_imgAvatar" src="" style="border-width:1px;border-style:solid;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="header"> 
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="mealreq_ad.html">Meal Entry</a></li>
+              <li><a href="bill_ad.html">Bill & Payment</a></li>
+              <li><a href="notice_ad.html">Notice</a></li>
+              <li><a href="remarks_ad.html">Remarks</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <hr class="line">
+    </section>
+</body>
+</html>
