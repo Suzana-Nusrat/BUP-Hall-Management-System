@@ -5,4 +5,4 @@ Team Members :
   1. Afsana Alo
   2. Nusrat Nizam Suzana 
   3. Sadia Hamid Obony
-  4. Sainul Islam Santo
+  4. Shahinul Islam Santo
